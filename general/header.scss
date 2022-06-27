@@ -1,0 +1,40 @@
+@import '../partials/mixins.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: whitesmoke;
+  padding: 16px 44px;
+
+  .top {
+    display: flex;
+    border-bottom: 1px solid #151515;
+
+    &-left {
+      flex: 1;
+      margin-bottom: 16px;
+
+      span {
+        @include top-style;
+
+        &.green {
+          @include top-style;
+          color: #6A983C;
+        }
+      }
+    }
+    &-right {
+
+      span {
+        &.green {
+          @include top-style;
+          color: #6A983C;
+        }
+      }
+
+    }
+  }
+}

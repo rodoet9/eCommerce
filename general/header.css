@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  background: whitesmoke;
+  padding: 16px 44px; }
+  .header .top {
+    display: flex;
+    border-bottom: 1px solid #151515; }
+    .header .top-left {
+      flex: 1;
+      margin-bottom: 16px; }
+      .header .top-left span {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 32px; }
+        .header .top-left span.green {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          margin-right: 32px;
+          color: #6A983C; }
+    .header .top-right span.green {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      margin-right: 32px;
+      color: #6A983C; }
+
+/*# sourceMappingURL=header.css.map */
