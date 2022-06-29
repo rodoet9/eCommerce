@@ -4,34 +4,67 @@
     <meta charset="UTF-8">
     <title>E-shop Project</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="fonts/css/fontello.css">
 </head>
 <body>
 <div class="header">
     <div class="top">
         <div class="top-left">
-            <span class="green">Chat with us</span>
-            <span class="phone-number">+40 712 345 678</span>
-            <span class="email">info@freshnesecom.com</span>
+            <a href="https://www.livechat.com/" class="green">Chat with us</a>
+            <a href="tel:+40712345678" class="phone-number">+40 712 345 678</a>
+            <a href="mailto:info@freshnesecom.com" class="email">info@freshnesecom.com</a>
         </div>
-        <div class="top-right">
-            <span class="green">Blog</span>
-            <span class="green">About Us</span>
-            <span class="green">Careers</span>
+        <div class="top-right green">
+            <a href="#">Blog</a>
+            <a href="#">About us</a>
+            <a href="#">Careers</a>
         </div>
     </div>
-    <div class="content">
+    <div class="header-content">
         <div class="logo">
             <img src="images/logo.png" alt="logo picture">
         </div>
         <div class="searchbar">
-            <div class="categories">All categories</div>
+            <div class="categories">
+                <label for="categories"></label>
+                <select id="categories">
+                    <option>All categories</option>
+                    <option>Bakery</option>
+                    <option>Fruit and vegetables</option>
+                    <option>Meat and fish</option>
+                    <option>Drinks</option>
+                    <option>Kitchen</option>
+                    <option>Special nutrition</option>
+                    <option>Baby</option>
+                    <option>Pharmacy</option>
+                </select>
+<!--                <i class="icon-arrow-down"></i>-->
+            </div>
+
             <div class="space"></div>
             <div class="search-window">
-                <input type="text" placeholder="Search products, categories...">
+                <label for="search"></label>
+                <input id="search" type="text" placeholder="Search products, categories...">
             </div>
+            <i class="icon-search"></i>
         </div>
-        <div class="icon">icon1 icon2</div>
+        <i class="icon-user"></i>
+        <i class="icon-basket"></i>
     </div>
 </div>
+
+<div class="menu">
+    <ul>
+        <li>Bakery</li>
+        <li>Fruit and vegetables</li>
+        <li>Meat and fish</li>
+        <li>Drinks</li>
+        <li>Kitchen</li>
+        <li>Special nutrition</li>
+        <li>Baby</li>
+        <li>Pharmacy</li>
+    </ul>
+</div>
+
 </body>
 </html>

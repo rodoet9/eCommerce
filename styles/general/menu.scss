@@ -1,0 +1,20 @@
+@import '../partials/mixins';
+@import '../partials/variables';
+
+.menu {
+  background: lightcoral;
+
+  ul {
+    @include reset-list;
+    display: flex;
+
+    li {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      padding: 16px 45px;
+      color: $color-black-1;
+    }
+  }
+
+}

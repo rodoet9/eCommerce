@@ -1,56 +1,68 @@
 .header {
-  background: whitesmoke;
+  background: lightblue;
   padding: 16px 44px; }
   .header .top {
     display: flex;
     border-bottom: 1px solid #151515;
     margin-bottom: 44px; }
-    .header .top-left {
-      flex: 1;
-      margin-bottom: 16px; }
-      .header .top-left span {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
-        margin-right: 32px; }
-        .header .top-left span.green {
-          font-weight: 400;
-          font-size: 12px;
-          line-height: 16px;
-          margin-right: 32px;
-          color: #6A983C; }
-    .header .top-right span.green {
+    .header .top a {
+      text-decoration: none;
+      color: inherit;
       font-weight: 400;
       font-size: 12px;
       line-height: 16px;
-      margin-right: 32px;
+      margin-right: 32px; }
+      .header .top a:last-child {
+        margin-right: 0; }
+      .header .top a.green {
+        color: #6A983C; }
+      .header .top a:hover {
+        text-decoration: underline;
+        font-weight: 700; }
+    .header .top-left {
+      flex: 1;
+      margin-bottom: 16px; }
+    .header .top-right.green {
       color: #6A983C; }
-  .header .content {
+  .header-content {
     display: flex; }
-    .header .content .logo {
+    .header-content .logo {
       display: flex;
       align-items: center; }
-    .header .content .searchbar {
+      .header-content .logo:hover {
+        cursor: pointer; }
+    .header-content .searchbar {
       display: flex;
       padding: 8px 16px;
       background: #F9F9F9;
       border: 1px solid #D1D1D1;
       border-radius: 12px;
-      margin-left: 158px; }
-      .header .content .searchbar .categories {
+      margin-left: 158px;
+      margin-right: 254px; }
+      .header-content .searchbar .categories select {
+        background-color: #F9F9F9;
+        border: none;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 22px;
+        margin-right: 48px;
         color: #151515;
-        margin-right: 48px; }
-      .header .content .searchbar .space {
+        outline: none;
+        width: auto; }
+        .header-content .searchbar .categories select:hover {
+          cursor: pointer; }
+      .header-content .searchbar .space {
         border-right: 1px solid #D1D1D1;
         margin-right: 24px; }
-      .header .content .searchbar .search-window input[type=text] {
-        background: #F9F9F9;
-        border: none;
-        width: 262px;
-        height: 20px; }
+      .header-content .searchbar .search-window {
+        margin-right: 16px; }
+        .header-content .searchbar .search-window input[type=text] {
+          background: #F9F9F9;
+          border: none;
+          width: 262px;
+          outline: none; }
+      .header-content .searchbar .icon-search {
+        font-size: 16px; }
 
 /*# sourceMappingURL=header.css.map */

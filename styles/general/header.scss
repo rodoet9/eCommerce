@@ -3,7 +3,8 @@
 
 
 .header {
-  background: whitesmoke;
+  //background: $color-white-1;
+  background: lightblue;
   padding: 16px 44px;
 
   .top {
@@ -11,55 +12,76 @@
     border-bottom: 1px solid #151515;
     margin-bottom: 44px;
 
-    &-left {
-      flex: 1;
-      margin-bottom: 16px;
+    a {
+      @include anchor-reset;
+      @include top-style;
 
-      span {
-        @include top-style;
+      &.green {
+        color: $color-green-1;
+      }
 
-        &.green {
-          @include top-style;
-          color: $color-green-1;
-        }
+      &:hover {
+        text-decoration: underline;
+        font-weight: 700;
       }
     }
 
+    &-left {
+      flex: 1;
+      margin-bottom: 16px;
+    }
+
     &-right {
-      span {
-        &.green {
-          @include top-style;
-          color: $color-green-1;
-        }
+      &.green {
+        color: $color-green-1;
       }
     }
   }
 
-  .content {
+  &-content {
     display: flex;
 
     .logo {
       display: flex;
       align-items: center;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     .searchbar {
       display: flex;
-      //align-items: center;
       padding: 8px 16px;
       background: #F9F9F9;
       border: 1px solid #D1D1D1;
       border-radius: 12px;
       margin-left: 158px;
+      margin-right: 254px;
 
       .categories {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 22px;
-        color: $color-black-1;
-        margin-right: 48px;
+        select {
+          background-color: $color-grey-1;
+          border: none;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          margin-right: 48px;
+          color: $color-black-1;
+          //appearance: none;
+          outline: none;
+          width: auto;
 
+          &:hover {
+            cursor: pointer;
+          }
+        }
+
+        //.icon-arrow-down {
+        // font-size: 6px;
+        //
+        //}
       }
 
       .space {
@@ -68,13 +90,19 @@
       }
 
       .search-window {
+        margin-right: 16px;
+
         input[type=text] {
-          background: #F9F9F9;
+          background: $color-grey-1;
           border: none;
           width: 262px;
-          height: 20px;
+          outline: none;
 
         }
+      }
+
+      .icon-search {
+        font-size: 16px;
       }
     }
   }

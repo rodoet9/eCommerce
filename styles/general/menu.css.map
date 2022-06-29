@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAGA,KAAM;EACJ,UAAU,EAAE,UAAU;EAEtB,QAAG;ICUH,MAAM,EAAE,CAAC;IACT,OAAO,EAAE,CAAC;IACV,UAAU,EAAE,IAAI;IDVd,OAAO,EAAE,IAAI;IAEb,WAAG;MACD,WAAW,EAAE,GAAG;MAChB,SAAS,EAAE,IAAI;MACf,WAAW,EAAE,IAAI;MACjB,OAAO,EAAE,SAAS;MAClB,KAAK,EEbK,OAAO",
+"sources": ["menu.scss","../partials/mixins.scss","../partials/variables.scss"],
 "names": [],
 "file": "menu.css"
 }

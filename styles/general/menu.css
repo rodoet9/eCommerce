@@ -1,3 +1,15 @@
-
+.menu {
+  background: lightcoral; }
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; }
+    .menu ul li {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      padding: 16px 45px;
+      color: #151515; }
 
 /*# sourceMappingURL=menu.css.map */
