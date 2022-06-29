@@ -1,5 +1,5 @@
 .header {
-  background: lightblue;
+  background: #ffffff;
   padding: 16px 44px; }
   .header .top {
     display: flex;
@@ -64,5 +64,27 @@
           outline: none; }
       .header-content .searchbar .icon-search {
         font-size: 16px; }
+        .header-content .searchbar .icon-search:hover {
+          cursor: pointer; }
+    .header-content .icon-user {
+      font-size: 24px;
+      margin-right: 32px; }
+      .header-content .icon-user:hover {
+        cursor: pointer; }
+    .header-content .icon-basket {
+      font-size: 24px;
+      position: relative; }
+      .header-content .icon-basket:after {
+        width: 16px;
+        height: 16px;
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        background: red;
+        color: white;
+        top: 20px;
+        left: 0px; }
+      .header-content .icon-basket:hover {
+        cursor: pointer; }
 
 /*# sourceMappingURL=header.css.map */

@@ -4,13 +4,11 @@
 
 @import "general/header.css";
 @import "general/menu.css";
+@import "sections/categorymenu.css";
 
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background: #F9F9F9;
   font-family: 'Poppins', sans-serif;
 }

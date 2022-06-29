@@ -1,0 +1,123 @@
+@import '../partials/mixins';
+@import '../partials/variables';
+
+.category-menu {
+  padding: 64px 44px;
+  display: flex;
+  justify-content: space-between;
+
+  .category {
+
+    a {
+      @include anchor-reset;
+    }
+
+    .title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 16px;
+      color: $color-black-1;
+    }
+
+    ul {
+      @include reset-list;
+
+      li {
+        margin-bottom: 12px;
+
+        &:last-child {
+          margin-bottom: 44px;
+        }
+
+        a {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          text-decoration-line: underline;
+          color: $color-green-1;
+        }
+      }
+    }
+
+    .button-categories {
+      display: flex;
+      justify-content: center;
+      width: 160px;
+      border-radius: 12px;
+      padding: 8px 10px;
+      background: $color-grey-2;
+      border: 2px solid lightgrey;
+      font-weight: 700;
+
+      .button {
+        margin-right: 4px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .icon-arrow-right {
+        display: flex;
+        align-items: center;
+
+      }
+
+    }
+  }
+
+  //recepies
+  .recepies {
+    display: flex;
+
+    &-left, &-right {
+      width: 420px;
+      height: 280px;
+      margin-right: 32px;
+      padding: 32px;
+      border: 2px solid $color-green-3;
+      background: $color-green-2;
+      border-radius: 12px;
+
+      .banner {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: $color-green-1;
+        margin-bottom: 8px;
+        margin-top: 16px;
+      }
+
+      .heading {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 32px;
+        color: $color-black-1;
+        margin-bottom: 94px;
+      }
+
+      .button-recepies {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        color: #151515;
+        border: 2px solid $color-green-3;
+        border-radius: 12px;
+        padding: 8px 10px;
+        width: 140px;
+
+        a {
+          @include anchor-reset;
+        }
+
+        .button {
+          margin-right: 4px;
+        }
+      }
+    }
+
+  }
+
+}

@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url(general/header.css);
 @import url(general/menu.css);
+@import url(sections/categorymenu.css);
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background: #F9F9F9;
   font-family: 'Poppins', sans-serif; }
 

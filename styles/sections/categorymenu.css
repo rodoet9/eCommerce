@@ -1,0 +1,84 @@
+.category-menu {
+  padding: 64px 44px;
+  display: flex;
+  justify-content: space-between; }
+  .category-menu .category a {
+    text-decoration: none;
+    color: inherit; }
+  .category-menu .category .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+    color: #151515; }
+  .category-menu .category ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .category-menu .category ul li {
+      margin-bottom: 12px; }
+      .category-menu .category ul li:last-child {
+        margin-bottom: 44px; }
+      .category-menu .category ul li a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #6A983C; }
+  .category-menu .category .button-categories {
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    border-radius: 12px;
+    padding: 8px 10px;
+    background: #F5F5F5;
+    border: 2px solid lightgrey;
+    font-weight: 700; }
+    .category-menu .category .button-categories .button {
+      margin-right: 4px; }
+      .category-menu .category .button-categories .button:hover {
+        text-decoration: underline; }
+    .category-menu .category .button-categories .icon-arrow-right {
+      display: flex;
+      align-items: center; }
+  .category-menu .recepies {
+    display: flex; }
+    .category-menu .recepies-left, .category-menu .recepies-right {
+      width: 420px;
+      height: 280px;
+      margin-right: 32px;
+      padding: 32px;
+      border: 2px solid #92C064;
+      background: #F4F8EC;
+      border-radius: 12px; }
+      .category-menu .recepies-left .banner, .category-menu .recepies-right .banner {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #6A983C;
+        margin-bottom: 8px;
+        margin-top: 16px; }
+      .category-menu .recepies-left .heading, .category-menu .recepies-right .heading {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 32px;
+        color: #151515;
+        margin-bottom: 94px; }
+      .category-menu .recepies-left .button-recepies, .category-menu .recepies-right .button-recepies {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        color: #151515;
+        border: 2px solid #92C064;
+        border-radius: 12px;
+        padding: 8px 10px;
+        width: 140px; }
+        .category-menu .recepies-left .button-recepies a, .category-menu .recepies-right .button-recepies a {
+          text-decoration: none;
+          color: inherit; }
+        .category-menu .recepies-left .button-recepies .button, .category-menu .recepies-right .button-recepies .button {
+          margin-right: 4px; }
+
+/*# sourceMappingURL=categorymenu.css.map */

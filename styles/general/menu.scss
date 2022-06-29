@@ -2,18 +2,45 @@
 @import '../partials/variables';
 
 .menu {
-  background: lightcoral;
+  background: rgba(211, 211, 211, 0.67);
+  display: flex;
+  justify-content: center;
 
   ul {
     @include reset-list;
     display: flex;
+    padding: 16px 45px;
 
     li {
-      font-weight: 500;
-      font-size: 15px;
-      line-height: 22px;
-      padding: 16px 45px;
-      color: $color-black-1;
+      margin-right: 44px;
+      display: flex;
+      align-items: center;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        @include anchor-reset;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: $color-black-1;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .icon-arrow-down {
+        margin-left: 4px;
+        font-size: 8px;
+        color: green;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
   }
 
