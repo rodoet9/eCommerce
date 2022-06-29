@@ -1,13 +1,10 @@
-body {
-  margin: 0;
-  padding: 0; }
-
 .header {
   background: whitesmoke;
   padding: 16px 44px; }
   .header .top {
     display: flex;
-    border-bottom: 1px solid #151515; }
+    border-bottom: 1px solid #151515;
+    margin-bottom: 44px; }
     .header .top-left {
       flex: 1;
       margin-bottom: 16px; }
@@ -28,5 +25,32 @@ body {
       line-height: 16px;
       margin-right: 32px;
       color: #6A983C; }
+  .header .content {
+    display: flex; }
+    .header .content .logo {
+      display: flex;
+      align-items: center; }
+    .header .content .searchbar {
+      display: flex;
+      padding: 8px 16px;
+      background: #F9F9F9;
+      border: 1px solid #D1D1D1;
+      border-radius: 12px;
+      margin-left: 158px; }
+      .header .content .searchbar .categories {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #151515;
+        margin-right: 48px; }
+      .header .content .searchbar .space {
+        border-right: 1px solid #D1D1D1;
+        margin-right: 24px; }
+      .header .content .searchbar .search-window input[type=text] {
+        background: #F9F9F9;
+        border: none;
+        width: 262px;
+        height: 20px; }
 
 /*# sourceMappingURL=header.css.map */

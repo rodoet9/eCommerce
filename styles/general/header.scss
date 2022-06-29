@@ -1,9 +1,6 @@
-@import '../partials/mixins.scss';
+@import '../partials/mixins';
+@import '../partials/variables';
 
-body {
-  margin: 0;
-  padding: 0;
-}
 
 .header {
   background: whitesmoke;
@@ -12,6 +9,7 @@ body {
   .top {
     display: flex;
     border-bottom: 1px solid #151515;
+    margin-bottom: 44px;
 
     &-left {
       flex: 1;
@@ -22,19 +20,64 @@ body {
 
         &.green {
           @include top-style;
-          color: #6A983C;
+          color: $color-green-1;
         }
       }
     }
-    &-right {
 
+    &-right {
       span {
         &.green {
           @include top-style;
-          color: #6A983C;
+          color: $color-green-1;
         }
       }
-
     }
   }
+
+  .content {
+    display: flex;
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .searchbar {
+      display: flex;
+      //align-items: center;
+      padding: 8px 16px;
+      background: #F9F9F9;
+      border: 1px solid #D1D1D1;
+      border-radius: 12px;
+      margin-left: 158px;
+
+      .categories {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color-black-1;
+        margin-right: 48px;
+
+      }
+
+      .space {
+        border-right: 1px solid #D1D1D1;
+        margin-right: 24px;
+      }
+
+      .search-window {
+        input[type=text] {
+          background: #F9F9F9;
+          border: none;
+          width: 262px;
+          height: 20px;
+
+        }
+      }
+    }
+  }
+
+
 }
