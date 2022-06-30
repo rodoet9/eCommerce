@@ -26,7 +26,8 @@
       color: #6A983C; }
   .header-content {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 44px; }
     .header-content .logo {
       display: flex;
       align-items: center; }

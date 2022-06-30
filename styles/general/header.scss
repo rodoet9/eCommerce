@@ -40,6 +40,8 @@
   &-content {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 44px;
+
     .logo {
       display: flex;
       align-items: center;
@@ -55,6 +57,7 @@
       background: #F9F9F9;
       border: 1px solid #D1D1D1;
       border-radius: 12px;
+
 
       .categories {
         select {

@@ -1,7 +1,8 @@
 .category-menu {
   padding: 64px 44px;
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between;
+  background: #ffffff; }
   .category-menu .category a {
     text-decoration: none;
     color: inherit; }

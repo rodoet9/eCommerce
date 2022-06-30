@@ -1,14 +1,14 @@
 @import '../partials/mixins';
 @import '../partials/variables';
 
-.best-selling-products {
+.best-from-farmers {
   padding: 64px 44px;
   display: flex;
   justify-content: space-between;
   background: $color-white-1;
 
 
-  .selling-products {
+  .from-farmers {
     a {
       @include anchor-reset;
     }

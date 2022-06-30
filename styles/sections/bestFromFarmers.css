@@ -1,34 +1,34 @@
-.best-selling-products {
+.best-from-farmers {
   padding: 64px 44px;
   display: flex;
   justify-content: space-between;
   background: #ffffff; }
-  .best-selling-products .selling-products a {
+  .best-from-farmers .from-farmers a {
     text-decoration: none;
     color: inherit; }
-  .best-selling-products .selling-products .title {
+  .best-from-farmers .from-farmers .title {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 16px;
     color: #151515; }
-  .best-selling-products .selling-products ul {
+  .best-from-farmers .from-farmers ul {
     margin: 0;
     padding: 0;
     list-style: none; }
-    .best-selling-products .selling-products ul li {
+    .best-from-farmers .from-farmers ul li {
       margin-bottom: 12px; }
-      .best-selling-products .selling-products ul li:last-child {
+      .best-from-farmers .from-farmers ul li:last-child {
         margin-bottom: 44px; }
-      .best-selling-products .selling-products ul li a {
+      .best-from-farmers .from-farmers ul li a {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 19px;
         text-decoration-line: underline;
         color: #6A983C; }
-  .best-selling-products .button-products {
+  .best-from-farmers .button-products {
     display: flex;
     justify-content: center;
     width: 160px;
@@ -37,29 +37,29 @@
     background: #F5F5F5;
     border: 2px solid lightgrey;
     font-weight: 700; }
-    .best-selling-products .button-products .button {
+    .best-from-farmers .button-products .button {
       margin-right: 4px; }
-      .best-selling-products .button-products .button:hover {
+      .best-from-farmers .button-products .button:hover {
         text-decoration: underline; }
-    .best-selling-products .button-products .icon-arrow-right {
+    .best-from-farmers .button-products .icon-arrow-right {
       display: flex;
       align-items: center; }
-  .best-selling-products .product-cards {
+  .best-from-farmers .product-cards {
     display: flex;
     align-items: center;
     justify-content: space-around; }
-    .best-selling-products .product-cards .card {
+    .best-from-farmers .product-cards .card {
       margin-right: 32px;
       padding: 16px;
       border: 1px solid #D1D1D1;
       border-radius: 12px; }
-      .best-selling-products .product-cards .card .photo {
+      .best-from-farmers .product-cards .card .photo {
         position: relative; }
-        .best-selling-products .product-cards .card .photo img {
+        .best-from-farmers .product-cards .card .photo img {
           width: 280px;
           height: 200px;
           border-radius: 12px; }
-        .best-selling-products .product-cards .card .photo:after {
+        .best-from-farmers .product-cards .card .photo:after {
           padding: 0 8px;
           position: absolute;
           display: flex;
@@ -73,44 +73,44 @@
           left: 12px;
           color: #6A983C;
           background: #F4F8EC; }
-      .best-selling-products .product-cards .card .product-name {
+      .best-from-farmers .product-cards .card .product-name {
         font-weight: 500;
         font-size: 15px;
         line-height: 22px;
         margin-bottom: 4px;
         color: #151515; }
-      .best-selling-products .product-cards .card .description {
+      .best-from-farmers .product-cards .card .description {
         font-weight: 400;
         font-size: 12px;
         line-height: 16px;
         color: #575757;
         margin-bottom: 16px; }
-      .best-selling-products .product-cards .card .price {
+      .best-from-farmers .product-cards .card .price {
         display: flex;
         justify-content: space-between;
         align-items: center; }
-        .best-selling-products .product-cards .card .price .value {
+        .best-from-farmers .product-cards .card .price .value {
           font-weight: 600;
           font-size: 18px;
           line-height: 27px;
           color: #151515; }
-          .best-selling-products .product-cards .card .price .value-actual {
+          .best-from-farmers .product-cards .card .price .value-actual {
             font-weight: 600;
             font-size: 18px;
             line-height: 27px;
             color: #151515; }
-          .best-selling-products .product-cards .card .price .value-old {
+          .best-from-farmers .product-cards .card .price .value-old {
             font-weight: 600;
             font-size: 12px;
             line-height: 18px;
             text-decoration-line: line-through;
             color: #A9A9A9; }
-        .best-selling-products .product-cards .card .price a {
+        .best-from-farmers .product-cards .card .price a {
           text-decoration: none;
           color: inherit; }
-          .best-selling-products .product-cards .card .price a:hover {
+          .best-from-farmers .product-cards .card .price a:hover {
             text-decoration: underline; }
-        .best-selling-products .product-cards .card .price .button-cards {
+        .best-from-farmers .product-cards .card .price .button-cards {
           padding: 6px 12px;
           border-radius: 12px;
           border: 2px solid #46760A;
@@ -120,4 +120,4 @@
           background: #6A983C;
           color: #ffffff; }
 
-/*# sourceMappingURL=bestSellingProducts.css.map */
+/*# sourceMappingURL=bestFromFarmers.css.map */

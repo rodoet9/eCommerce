@@ -5,6 +5,7 @@
 @import "general/menu.css";
 @import "sections/categorymenu.css";
 @import "sections/bestSellingProducts.css";
+@import "sections/bestFromFarmers.css";
 
 body {
   margin: 0;
@@ -12,3 +13,9 @@ body {
   background: #F9F9F9;
   font-family: 'Poppins', sans-serif;
 }
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
