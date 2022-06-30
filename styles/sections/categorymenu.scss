@@ -4,7 +4,7 @@
 .category-menu {
   padding: 64px 44px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   .category {
 
@@ -54,6 +54,7 @@
 
       .button {
         margin-right: 4px;
+
         &:hover {
           text-decoration: underline;
         }
@@ -68,8 +69,7 @@
     }
   }
 
-  //recepies
-  .recepies {
+  .recipes {
     display: flex;
 
     &-left, &-right {
@@ -98,7 +98,7 @@
         margin-bottom: 94px;
       }
 
-      .button-recepies {
+      .button-recipes {
         font-weight: 700;
         font-size: 15px;
         line-height: 22px;
@@ -117,7 +117,5 @@
         }
       }
     }
-
   }
-
 }

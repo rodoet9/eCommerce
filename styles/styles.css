@@ -2,6 +2,7 @@
 @import url(general/header.css);
 @import url(general/menu.css);
 @import url(sections/categorymenu.css);
+@import url(sections/bestSellingProducts.css);
 body {
   margin: 0;
   padding: 0;

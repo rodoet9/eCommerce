@@ -1,7 +1,7 @@
 .category-menu {
   padding: 64px 44px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
   .category-menu .category a {
     text-decoration: none;
     color: inherit; }
@@ -43,9 +43,9 @@
     .category-menu .category .button-categories .icon-arrow-right {
       display: flex;
       align-items: center; }
-  .category-menu .recepies {
+  .category-menu .recipes {
     display: flex; }
-    .category-menu .recepies-left, .category-menu .recepies-right {
+    .category-menu .recipes-left, .category-menu .recipes-right {
       width: 420px;
       height: 280px;
       margin-right: 32px;
@@ -53,20 +53,20 @@
       border: 2px solid #92C064;
       background: #F4F8EC;
       border-radius: 12px; }
-      .category-menu .recepies-left .banner, .category-menu .recepies-right .banner {
+      .category-menu .recipes-left .banner, .category-menu .recipes-right .banner {
         font-weight: 600;
         font-size: 12px;
         line-height: 18px;
         color: #6A983C;
         margin-bottom: 8px;
         margin-top: 16px; }
-      .category-menu .recepies-left .heading, .category-menu .recepies-right .heading {
+      .category-menu .recipes-left .heading, .category-menu .recipes-right .heading {
         font-weight: 600;
         font-size: 22px;
         line-height: 32px;
         color: #151515;
         margin-bottom: 94px; }
-      .category-menu .recepies-left .button-recepies, .category-menu .recepies-right .button-recepies {
+      .category-menu .recipes-left .button-recipes, .category-menu .recipes-right .button-recipes {
         font-weight: 700;
         font-size: 15px;
         line-height: 22px;
@@ -75,10 +75,10 @@
         border-radius: 12px;
         padding: 8px 10px;
         width: 140px; }
-        .category-menu .recepies-left .button-recepies a, .category-menu .recepies-right .button-recepies a {
+        .category-menu .recipes-left .button-recipes a, .category-menu .recipes-right .button-recipes a {
           text-decoration: none;
           color: inherit; }
-        .category-menu .recepies-left .button-recepies .button, .category-menu .recepies-right .button-recepies .button {
+        .category-menu .recipes-left .button-recipes .button, .category-menu .recipes-right .button-recipes .button {
           margin-right: 4px; }
 
 /*# sourceMappingURL=categorymenu.css.map */

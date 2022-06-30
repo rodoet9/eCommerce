@@ -25,7 +25,8 @@
     .header .top-right.green {
       color: #6A983C; }
   .header-content {
-    display: flex; }
+    display: flex;
+    justify-content: space-between; }
     .header-content .logo {
       display: flex;
       align-items: center; }
@@ -36,9 +37,7 @@
       padding: 8px 16px;
       background: #F9F9F9;
       border: 1px solid #D1D1D1;
-      border-radius: 12px;
-      margin-left: 158px;
-      margin-right: 254px; }
+      border-radius: 12px; }
       .header-content .searchbar .categories select {
         background-color: #F9F9F9;
         border: none;
