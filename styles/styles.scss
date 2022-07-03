@@ -1,11 +1,16 @@
 //fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-@import "general/header.css";
-@import "general/menu.css";
-@import "sections/categorymenu.css";
-@import "sections/bestSellingProducts.css";
-@import "sections/bestFromFarmers.css";
+@import "general/header.scss";
+@import "general/menu.scss";
+@import "sections/categorymenu.scss";
+@import "sections/bestSellingProducts.scss";
+@import "sections/bestFromFarmers.scss";
+@import "sections/sectionHeadline.scss";
+@import "sections/blogPosts.scss";
+@import "sections/links.scss";
+@import "sections/tags.scss";
+@import "sections/copyright.scss";
 
 body {
   margin: 0;

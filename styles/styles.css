@@ -1,9 +1,774 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
-@import url(general/header.css);
-@import url(general/menu.css);
-@import url(sections/categorymenu.css);
-@import url(sections/bestSellingProducts.css);
-@import url(sections/bestFromFarmers.css);
+.header {
+  background: #ffffff;
+  padding: 16px 44px; }
+  .header .top {
+    display: flex;
+    border-bottom: 1px solid #151515;
+    margin-bottom: 44px; }
+    .header .top a {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      margin-right: 32px; }
+      .header .top a:last-child {
+        margin-right: 0; }
+      .header .top a.green {
+        color: #6A983C; }
+      .header .top a:hover {
+        text-decoration: underline;
+        font-weight: 700; }
+    .header .top-left {
+      flex: 1;
+      margin-bottom: 16px; }
+    .header .top-right.green {
+      color: #6A983C; }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px; }
+    .header-content .logo {
+      display: flex;
+      align-items: center; }
+      .header-content .logo:hover {
+        cursor: pointer; }
+    .header-content .searchbar {
+      display: flex;
+      padding: 8px 16px;
+      background: #F9F9F9;
+      border: 1px solid #D1D1D1;
+      border-radius: 12px; }
+      .header-content .searchbar .categories select {
+        background-color: #F9F9F9;
+        border: none;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 48px;
+        color: #151515;
+        outline: none;
+        width: auto; }
+        .header-content .searchbar .categories select:hover {
+          cursor: pointer; }
+      .header-content .searchbar .space {
+        border-right: 1px solid #D1D1D1;
+        margin-right: 24px; }
+      .header-content .searchbar .search-window {
+        margin-right: 16px; }
+        .header-content .searchbar .search-window input[type=text] {
+          background: #F9F9F9;
+          border: none;
+          width: 262px;
+          outline: none; }
+      .header-content .searchbar .icon-search {
+        font-size: 16px; }
+        .header-content .searchbar .icon-search:hover {
+          cursor: pointer; }
+    .header-content .icon-user {
+      font-size: 24px;
+      margin-right: 32px; }
+      .header-content .icon-user:hover {
+        cursor: pointer; }
+    .header-content .icon-basket {
+      font-size: 24px;
+      position: relative; }
+      .header-content .icon-basket:after {
+        width: 16px;
+        height: 16px;
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        background: red;
+        color: white;
+        top: 20px;
+        left: 0px; }
+      .header-content .icon-basket:hover {
+        cursor: pointer; }
+
+.menu {
+  display: flex;
+  justify-content: center; }
+  .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    padding: 16px 45px; }
+    .menu ul li {
+      margin-right: 44px;
+      display: flex;
+      align-items: center; }
+      .menu ul li:last-child {
+        margin-right: 0; }
+      .menu ul li a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #151515; }
+        .menu ul li a:hover {
+          text-decoration: underline; }
+      .menu ul li .icon-arrow-down {
+        margin-left: 4px;
+        font-size: 8px;
+        color: green; }
+        .menu ul li .icon-arrow-down:hover {
+          cursor: pointer; }
+
+.category-menu {
+  padding: 64px 44px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff; }
+  .category-menu .category a {
+    text-decoration: none;
+    color: inherit; }
+  .category-menu .category .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+    color: #151515; }
+  .category-menu .category ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .category-menu .category ul li {
+      margin-bottom: 12px; }
+      .category-menu .category ul li:last-child {
+        margin-bottom: 44px; }
+      .category-menu .category ul li a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #6A983C; }
+  .category-menu .category .button-categories {
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    border-radius: 12px;
+    padding: 8px 10px;
+    background: #F5F5F5;
+    border: 2px solid lightgrey;
+    font-weight: 700; }
+    .category-menu .category .button-categories .button {
+      margin-right: 4px; }
+      .category-menu .category .button-categories .button:hover {
+        text-decoration: underline; }
+    .category-menu .category .button-categories .icon-arrow-right {
+      display: flex;
+      align-items: center; }
+  .category-menu .recipes {
+    display: flex; }
+    .category-menu .recipes-left, .category-menu .recipes-right {
+      width: 420px;
+      height: 280px;
+      margin-right: 32px;
+      padding: 32px;
+      border: 2px solid #92C064;
+      background: #F4F8EC;
+      border-radius: 12px; }
+      .category-menu .recipes-left .banner, .category-menu .recipes-right .banner {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #6A983C;
+        margin-bottom: 8px;
+        margin-top: 16px; }
+      .category-menu .recipes-left .heading, .category-menu .recipes-right .heading {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 32px;
+        color: #151515;
+        margin-bottom: 94px; }
+      .category-menu .recipes-left .button-recipes, .category-menu .recipes-right .button-recipes {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        color: #151515;
+        border: 2px solid #92C064;
+        border-radius: 12px;
+        padding: 8px 10px;
+        width: 140px; }
+        .category-menu .recipes-left .button-recipes a, .category-menu .recipes-right .button-recipes a {
+          text-decoration: none;
+          color: inherit; }
+        .category-menu .recipes-left .button-recipes .button, .category-menu .recipes-right .button-recipes .button {
+          margin-right: 4px; }
+
+.best-selling-products {
+  padding: 64px 44px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff; }
+  .best-selling-products .selling-products a {
+    text-decoration: none;
+    color: inherit; }
+  .best-selling-products .selling-products .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+    color: #151515; }
+  .best-selling-products .selling-products ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .best-selling-products .selling-products ul li {
+      margin-bottom: 12px; }
+      .best-selling-products .selling-products ul li:last-child {
+        margin-bottom: 44px; }
+      .best-selling-products .selling-products ul li a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #6A983C; }
+  .best-selling-products .button-products {
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    border-radius: 12px;
+    padding: 8px 10px;
+    background: #F5F5F5;
+    border: 2px solid lightgrey;
+    font-weight: 700; }
+    .best-selling-products .button-products .button {
+      margin-right: 4px; }
+      .best-selling-products .button-products .button:hover {
+        text-decoration: underline; }
+    .best-selling-products .button-products .icon-arrow-right {
+      display: flex;
+      align-items: center; }
+  .best-selling-products .product-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .best-selling-products .product-cards .card {
+      margin-right: 32px;
+      padding: 16px;
+      border: 1px solid #D1D1D1;
+      border-radius: 12px; }
+      .best-selling-products .product-cards .card .photo {
+        position: relative; }
+        .best-selling-products .product-cards .card .photo img {
+          width: 280px;
+          height: 200px;
+          border-radius: 12px; }
+        .best-selling-products .product-cards .card .photo:after {
+          padding: 0 8px;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 54px;
+          height: 18px;
+          content: "-36%";
+          border-radius: 12px;
+          top: 12px;
+          left: 12px;
+          color: #6A983C;
+          background: #F4F8EC; }
+      .best-selling-products .product-cards .card .product-name {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 4px;
+        color: #151515; }
+      .best-selling-products .product-cards .card .description {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #575757;
+        margin-bottom: 16px; }
+      .best-selling-products .product-cards .card .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .best-selling-products .product-cards .card .price .value {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 27px;
+          color: #151515; }
+          .best-selling-products .product-cards .card .price .value-actual {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #151515; }
+          .best-selling-products .product-cards .card .price .value-old {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            text-decoration-line: line-through;
+            color: #A9A9A9; }
+        .best-selling-products .product-cards .card .price a {
+          text-decoration: none;
+          color: inherit; }
+          .best-selling-products .product-cards .card .price a:hover {
+            text-decoration: underline; }
+        .best-selling-products .product-cards .card .price .button-cards {
+          padding: 6px 12px;
+          border-radius: 12px;
+          border: 2px solid #46760A;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 22px;
+          background: #6A983C;
+          color: #ffffff; }
+
+.best-from-farmers {
+  padding: 64px 44px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff; }
+  .best-from-farmers .from-farmers a {
+    text-decoration: none;
+    color: inherit; }
+  .best-from-farmers .from-farmers .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+    color: #151515; }
+  .best-from-farmers .from-farmers ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .best-from-farmers .from-farmers ul li {
+      margin-bottom: 12px; }
+      .best-from-farmers .from-farmers ul li:last-child {
+        margin-bottom: 44px; }
+      .best-from-farmers .from-farmers ul li a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-decoration-line: underline;
+        color: #6A983C; }
+  .best-from-farmers .button-products {
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    border-radius: 12px;
+    padding: 8px 10px;
+    background: #F5F5F5;
+    border: 2px solid lightgrey;
+    font-weight: 700; }
+    .best-from-farmers .button-products .button {
+      margin-right: 4px; }
+      .best-from-farmers .button-products .button:hover {
+        text-decoration: underline; }
+    .best-from-farmers .button-products .icon-arrow-right {
+      display: flex;
+      align-items: center; }
+  .best-from-farmers .product-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+    .best-from-farmers .product-cards .card {
+      margin-right: 32px;
+      padding: 16px;
+      border: 1px solid #D1D1D1;
+      border-radius: 12px; }
+      .best-from-farmers .product-cards .card .photo {
+        position: relative; }
+        .best-from-farmers .product-cards .card .photo img {
+          width: 280px;
+          height: 200px;
+          border-radius: 12px; }
+        .best-from-farmers .product-cards .card .photo:after {
+          padding: 0 8px;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 54px;
+          height: 18px;
+          content: "-36%";
+          border-radius: 12px;
+          top: 12px;
+          left: 12px;
+          color: #6A983C;
+          background: #F4F8EC; }
+      .best-from-farmers .product-cards .card .product-name {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 4px;
+        color: #151515; }
+      .best-from-farmers .product-cards .card .description {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #575757;
+        margin-bottom: 16px; }
+      .best-from-farmers .product-cards .card .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .best-from-farmers .product-cards .card .price .value {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 27px;
+          color: #151515; }
+          .best-from-farmers .product-cards .card .price .value-actual {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #151515; }
+          .best-from-farmers .product-cards .card .price .value-old {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            text-decoration-line: line-through;
+            color: #A9A9A9; }
+        .best-from-farmers .product-cards .card .price a {
+          text-decoration: none;
+          color: inherit; }
+          .best-from-farmers .product-cards .card .price a:hover {
+            text-decoration: underline; }
+        .best-from-farmers .product-cards .card .price .button-cards {
+          padding: 6px 12px;
+          border-radius: 12px;
+          border: 2px solid #46760A;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 22px;
+          background: #6A983C;
+          color: #ffffff; }
+
+.section-headline {
+  padding: 64px 44px;
+  background: #ffffff; }
+  .section-headline .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px; }
+    .section-headline .title-left {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #151515; }
+    .section-headline .title-right {
+      display: flex;
+      align-items: center; }
+      .section-headline .title-right a {
+        text-decoration: none;
+        color: inherit; }
+        .section-headline .title-right a:hover {
+          text-decoration: underline; }
+      .section-headline .title-right .button-headline {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        color: #151515; }
+      .section-headline .title-right .icon-arrow-right {
+        color: #6A983C; }
+  .section-headline .product-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .section-headline .product-cards .card {
+      padding: 16px;
+      border: 1px solid #D1D1D1;
+      border-radius: 12px; }
+      .section-headline .product-cards .card:last-child {
+        margin-right: 0; }
+      .section-headline .product-cards .card .photo {
+        position: relative; }
+        .section-headline .product-cards .card .photo img {
+          width: 280px;
+          height: 200px;
+          border-radius: 12px; }
+        .section-headline .product-cards .card .photo:after {
+          padding: 0 8px;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 54px;
+          height: 18px;
+          content: "-36%";
+          border-radius: 12px;
+          top: 12px;
+          left: 12px;
+          color: #6A983C;
+          background: #F4F8EC; }
+      .section-headline .product-cards .card .product-name {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 4px;
+        color: #151515; }
+      .section-headline .product-cards .card .description {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #575757;
+        margin-bottom: 16px; }
+      .section-headline .product-cards .card .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .section-headline .product-cards .card .price .value {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 27px;
+          color: #151515; }
+          .section-headline .product-cards .card .price .value-actual {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #151515; }
+          .section-headline .product-cards .card .price .value-old {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            text-decoration-line: line-through;
+            color: #A9A9A9; }
+        .section-headline .product-cards .card .price a {
+          text-decoration: none;
+          color: inherit; }
+          .section-headline .product-cards .card .price a:hover {
+            text-decoration: underline; }
+        .section-headline .product-cards .card .price .button-cards {
+          padding: 6px 12px;
+          border-radius: 12px;
+          border: 2px solid #46760A;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 22px;
+          background: #6A983C;
+          color: #ffffff; }
+
+.blog-posts {
+  padding: 64px 44px;
+  background: #ffffff; }
+  .blog-posts .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px; }
+    .blog-posts .title-left {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: #151515; }
+    .blog-posts .title-right {
+      display: flex;
+      align-items: center; }
+      .blog-posts .title-right a {
+        text-decoration: none;
+        color: inherit; }
+        .blog-posts .title-right a:hover {
+          text-decoration: underline; }
+      .blog-posts .title-right .button-blog {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        color: #151515; }
+      .blog-posts .title-right .icon-arrow-right {
+        color: #6A983C; }
+  .blog-posts .blogs {
+    display: flex;
+    justify-content: space-between; }
+    .blog-posts .blogs .newest-blog {
+      margin-right: 32px; }
+      .blog-posts .blogs .newest-blog:hover {
+        cursor: pointer; }
+      .blog-posts .blogs .newest-blog .background-top {
+        padding: 24px;
+        border-radius: 12px;
+        background: #ffffff; }
+        .blog-posts .blogs .newest-blog .background-top .category {
+          text-align: center;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 18px;
+          border-radius: 12px;
+          width: 82px;
+          color: #6A983C;
+          background: #F4F8EC; }
+        .blog-posts .blogs .newest-blog .background-top img {
+          width: 469px;
+          height: 150px; }
+      .blog-posts .blogs .newest-blog .background-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius: 12px;
+        width: 469px;
+        height: 150px;
+        padding: 24px;
+        background: linear-gradient(0deg, #4dc855 0%, rgba(0, 0, 0, 0) 100%); }
+      .blog-posts .blogs .newest-blog .post-title {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 8px;
+        color: #ffffff; }
+      .blog-posts .blogs .newest-blog .info {
+        display: flex; }
+        .blog-posts .blogs .newest-blog .info .photo {
+          display: flex;
+          align-items: center;
+          margin-right: 8px; }
+          .blog-posts .blogs .newest-blog .info .photo img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%; }
+        .blog-posts .blogs .newest-blog .info .author, .blog-posts .blogs .newest-blog .info .date {
+          display: flex;
+          align-items: center;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          margin-right: 16px;
+          color: #ffffff; }
+    .blog-posts .blogs-item {
+      width: 320px;
+      height: 360px;
+      border-radius: 12px;
+      background: rgba(238, 238, 229, 0.31); }
+      .blog-posts .blogs-item:hover {
+        cursor: pointer; }
+      .blog-posts .blogs-item .photo {
+        margin-bottom: 24px; }
+        .blog-posts .blogs-item .photo img {
+          width: 320px;
+          height: 180px;
+          border-top-right-radius: 12px;
+          border-top-left-radius: 12px; }
+      .blog-posts .blogs-item .category {
+        width: 80px;
+        border-radius: 12px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 8px;
+        color: #6A983C;
+        background: #F4F8EC; }
+      .blog-posts .blogs-item .post-title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 16px;
+        margin-left: 8px;
+        color: #151515; }
+      .blog-posts .blogs-item .info {
+        display: flex; }
+        .blog-posts .blogs-item .info .author, .blog-posts .blogs-item .info .date {
+          margin-left: 8px;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          margin-right: 16px;
+          color: #151515; }
+    .blog-posts .blogs .posts-list-item {
+      display: flex;
+      margin-bottom: 32px; }
+      .blog-posts .blogs .posts-list-item:hover {
+        cursor: pointer; }
+      .blog-posts .blogs .posts-list-item .text {
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        height: 96px;
+        background: rgba(238, 238, 229, 0.31); }
+        .blog-posts .blogs .posts-list-item .text .post-title {
+          padding: 4px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 22px;
+          margin-right: 48px;
+          width: 300px;
+          color: #151515; }
+        .blog-posts .blogs .posts-list-item .text .info {
+          padding: 4px;
+          display: flex;
+          margin-top: 16px; }
+          .blog-posts .blogs .posts-list-item .text .info .author, .blog-posts .blogs .posts-list-item .text .info .date {
+            margin-right: 16px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #151515; }
+      .blog-posts .blogs .posts-list-item .photo img {
+        width: 96px;
+        height: 96px;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px; }
+
+.links {
+  padding: 64px 44px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff; }
+  .links .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+    color: #151515; }
+  .links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .links ul li {
+      margin-bottom: 16px; }
+      .links ul li a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #6A983C; }
+
+.tags {
+  padding: 0px 44px;
+  background: #ffffff; }
+  .tags .title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #151515; }
+  .tags ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; }
+    .tags ul li {
+      text-align: center;
+      margin-right: 16px;
+      margin-bottom: 16px;
+      padding: 4px 10px;
+      border-radius: 12px;
+      background: #F5F5F5; }
+      .tags ul li:hover {
+        text-decoration: underline; }
+      .tags ul li a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #151515; }
+
+.copyright {
+  padding: 44px 44px;
+  background: #ffffff; }
+
 body {
   margin: 0;
   padding: 0;

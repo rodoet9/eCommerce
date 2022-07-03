@@ -1,0 +1,26 @@
+.links {
+  padding: 64px 44px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff; }
+  .links .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+    color: #151515; }
+  .links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .links ul li {
+      margin-bottom: 16px; }
+      .links ul li a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #6A983C; }
+
+/*# sourceMappingURL=links.css.map */

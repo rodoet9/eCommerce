@@ -1,0 +1,32 @@
+@import '../partials/mixins';
+@import '../partials/variables';
+
+.links {
+  padding: 64px 44px;
+  display: flex;
+  justify-content: space-between;
+  background: $color-white-1;
+
+  .title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 16px;
+    color: $color-black-1;
+  }
+
+  ul {
+    @include reset-list;
+
+    li {
+      margin-bottom: 16px;
+      a {
+        @include anchor-reset;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: $color-green-1;
+      }
+    }
+  }
+}

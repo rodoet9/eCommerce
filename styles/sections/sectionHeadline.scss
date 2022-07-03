@@ -1,0 +1,152 @@
+@import '../partials/mixins';
+@import '../partials/variables';
+
+.section-headline {
+  padding: 64px 44px;
+  background: $color-white-1;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+
+    &-left {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: $color-black-1;
+    }
+
+    &-right {
+      display: flex;
+      align-items: center;
+
+      a {
+        @include anchor-reset;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .button-headline {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        color: $color-black-1;
+      }
+
+      .icon-arrow-right {
+        color: $color-green-1;
+      }
+    }
+  }
+
+
+  .product-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .card {
+      //margin-right: 32px;
+      padding: 16px;
+      border: 1px solid $color-grey-3;
+      border-radius: 12px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .photo {
+        position: relative;
+
+        img {
+          width: 280px;
+          height: 200px;
+          border-radius: 12px;
+        }
+
+        &:after {
+          padding: 0 8px;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 54px;
+          height: 18px;
+          content: "-36%";
+          border-radius: 12px;
+          top: 12px;
+          left: 12px;
+          color: $color-green-1;
+          background: $color-green-2;
+        }
+      }
+
+      .product-name {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 4px;
+        color: $color-black-1;
+      }
+
+      .description {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: $color-grey-4;
+        margin-bottom: 16px;
+      }
+
+      .price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .value {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 27px;
+          color: $color-black-1;
+
+          &-actual {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: $color-black-1;
+          }
+
+          &-old {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 18px;
+            text-decoration-line: line-through;
+            color: $color-grey-5;
+          }
+        }
+
+        a {
+          @include anchor-reset;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .button-cards {
+          padding: 6px 12px;
+          border-radius: 12px;
+          border: 2px solid $color-green-4;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 22px;
+          background: $color-green-1;
+          color: $color-white-1;
+        }
+      }
+    }
+  }
+}
+

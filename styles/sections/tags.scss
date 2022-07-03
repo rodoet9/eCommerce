@@ -1,0 +1,43 @@
+@import '../partials/mixins';
+@import '../partials/variables';
+
+.tags {
+  padding: 0px 44px;
+  background: $color-white-1;
+
+  .title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: $color-black-1;
+  }
+
+  ul {
+    @include reset-list;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      text-align: center;
+      margin-right: 16px;
+      margin-bottom: 16px;
+      padding: 4px 10px;
+      border-radius: 12px;
+      background: $color-grey-2;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      a {
+        @include anchor-reset;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: $color-black-1;
+
+      }
+    }
+  }
+}
