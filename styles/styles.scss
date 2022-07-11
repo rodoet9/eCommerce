@@ -11,16 +11,22 @@
 @import "sections/links.scss";
 @import "sections/tags.scss";
 @import "sections/copyright.scss";
+@import "sections/slider.scss";
+
+@import "sections/vegetablesFruits/topSide.scss";
+
 
 body {
-  margin: 0;
+  //margin: 0;
   padding: 0;
   background: #F9F9F9;
   font-family: 'Poppins', sans-serif;
-}
-
-.container {
   margin: 0 auto;
   width: 80%;
 }
+
+//.container {
+//  margin: 0 auto;
+//  width: 80%;
+//}
 

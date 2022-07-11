@@ -1,0 +1,216 @@
+.top {
+  padding: 0 44px;
+  background: #ffffff; }
+  .top-top .breadcrumbs {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding-top: 16px; }
+    .top-top .breadcrumbs a {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #A9A9A9; }
+      .top-top .breadcrumbs a:hover {
+        color: #000000; }
+      .top-top .breadcrumbs a:before {
+        content: '/';
+        margin-right: 8px;
+        color: #A9A9A9; }
+      .top-top .breadcrumbs a:first-child {
+        margin-left: 0; }
+        .top-top .breadcrumbs a:first-child:before {
+          content: '';
+          margin-right: 0; }
+  .top-middle {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center; }
+    .top-middle .title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+      flex: 1;
+      color: #000000; }
+    .top-middle .viewType {
+      display: flex;
+      align-items: center;
+      margin-right: 24px; }
+      .top-middle .viewType a {
+        text-decoration: none;
+        color: inherit; }
+      .top-middle .viewType .grid {
+        display: flex;
+        margin-right: 24px; }
+        .top-middle .viewType .grid .icon-grid {
+          color: #6A983C; }
+        .top-middle .viewType .grid .type {
+          display: flex;
+          align-items: center;
+          margin-left: 4px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #A9A9A9; }
+          .top-middle .viewType .grid .type:hover {
+            color: #000000; }
+      .top-middle .viewType .list {
+        display: flex; }
+        .top-middle .viewType .list .icon-list {
+          color: #6A983C; }
+        .top-middle .viewType .list .type {
+          display: flex;
+          align-items: center;
+          margin-left: 4px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #A9A9A9; }
+          .top-middle .viewType .list .type:hover {
+            color: #000000; }
+    .top-middle .no-products {
+      display: flex;
+      align-items: center; }
+      .top-middle .no-products .number {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0px 8px;
+        border-radius: 12px;
+        margin-right: 4px;
+        background: #F4F8EC;
+        color: #6A983C; }
+      .top-middle .no-products .products {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000; }
+  .top .filters {
+    display: flex; }
+    .top .filters .radioType {
+      margin-right: 16px; }
+      .top .filters .radioType form {
+        display: flex;
+        align-content: center;
+        padding: 9px 16px;
+        background: #F9F9F9;
+        border: 1px solid #D1D1D1;
+        border-radius: 12px; }
+      .top .filters .radioType label {
+        margin-right: 16px; }
+        .top .filters .radioType label:last-child {
+          margin-right: 0; }
+        .top .filters .radioType label input {
+          width: 20px;
+          height: 20px;
+          border: 1.5px solid #D1D1D1;
+          margin-right: 4px; }
+        .top .filters .radioType label span {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 19px; }
+    .top .filters .checkboxType {
+      margin-right: 16px;
+      display: flex;
+      align-items: center; }
+      .top .filters .checkboxType form {
+        padding: 9px 16px;
+        border-radius: 12px;
+        background: #F9F9F9;
+        border: 1px solid #D1D1D1;
+        margin-right: 16px; }
+        .top .filters .checkboxType form label {
+          display: flex;
+          align-items: center; }
+          .top .filters .checkboxType form label input {
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid #D1D1D1;
+            margin-right: 8px; }
+          .top .filters .checkboxType form label span {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 19px;
+            color: #000000; }
+      .top .filters .checkboxType .productsPerPage {
+        display: flex;
+        align-items: center;
+        padding: 9px 16px;
+        background: #F9F9F9;
+        border: 1px solid #D1D1D1;
+        border-radius: 12px; }
+        .top .filters .checkboxType .productsPerPage label {
+          display: flex;
+          align-items: center; }
+          .top .filters .checkboxType .productsPerPage label input {
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid #D1D1D1;
+            margin-right: 8px; }
+          .top .filters .checkboxType .productsPerPage label .filter {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 19px;
+            margin-right: 16px;
+            color: #000000; }
+        .top .filters .checkboxType .productsPerPage span {
+          display: flex;
+          align-items: center;
+          color: #000000; }
+          .top .filters .checkboxType .productsPerPage span.number {
+            padding: 0 8px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+            border: 1px solid #D1D1D1;
+            border-radius: 12px;
+            color: #000000; }
+          .top .filters .checkboxType .productsPerPage span.space {
+            margin-right: 24px;
+            margin-left: 32px;
+            height: 20px;
+            border-right: 2px solid #D1D1D1; }
+        .top .filters .checkboxType .productsPerPage select {
+          text-align: center;
+          border: none;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          margin-right: 48px;
+          color: #000000;
+          background-color: #F9F9F9;
+          outline: none;
+          width: auto; }
+          .top .filters .checkboxType .productsPerPage select:hover {
+            cursor: pointer; }
+  .top .applied-filters {
+    display: flex;
+    align-items: center;
+    margin-top: 16px; }
+    .top .applied-filters .applied {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 18px;
+      margin-right: 12px;
+      color: #A9A9A9; }
+    .top .applied-filters .selected-filter {
+      display: flex;
+      padding: 4px 12px;
+      background: #F4F8EC;
+      border-radius: 12px;
+      margin-right: 12px; }
+      .top .applied-filters .selected-filter span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 4px;
+        color: #6A983C; }
+      .top .applied-filters .selected-filter i {
+        font-weight: 600;
+        font-size: 12px;
+        color: black; }
+
+/*# sourceMappingURL=topSide.css.map */

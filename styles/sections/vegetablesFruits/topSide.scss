@@ -1,0 +1,321 @@
+@import '../../partials/mixins';
+@import '../../partials/variables';
+
+.top {
+  padding: 0 44px;
+  background: $color-white-1;
+
+  &-top {
+
+    .breadcrumbs {
+      margin-top: 16px;
+      margin-bottom: 24px;
+      padding-top: 16px;
+
+      a {
+        @include anchor-reset;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: $color-grey-5;
+
+        &:hover {
+          color: $color-black-1;
+        }
+
+        &:before {
+          content: '/';
+          margin-right: 8px;
+          color: $color-grey-5
+        }
+
+        &:first-child {
+          margin-left: 0;
+
+          &:before {
+            content: '';
+            margin-right: 0;
+          }
+        }
+      }
+
+    }
+  }
+
+  &-middle {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+
+    .title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+      flex: 1;
+      color: $color-black-1;
+    }
+
+    .viewType {
+      display: flex;
+      align-items: center;
+      margin-right: 24px;
+
+      a {
+        @include anchor-reset;
+      }
+
+      .grid {
+        display: flex;
+        margin-right: 24px;
+
+        .icon-grid {
+          color: $color-green-1;
+        }
+
+        .type {
+          display: flex;
+          align-items: center;
+          margin-left: 4px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: $color-grey-5;
+
+          &:hover {
+            color: $color-black-1;
+          }
+        }
+      }
+
+      .list {
+        display: flex;
+
+        .icon-list {
+          color: $color-green-1;
+        }
+
+        .type {
+          display: flex;
+          align-items: center;
+          margin-left: 4px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: $color-grey-5;
+
+          &:hover {
+            color: $color-black-1;
+          }
+        }
+      }
+    }
+
+    .no-products {
+      display: flex;
+      align-items: center;
+
+      .number {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0px 8px;
+        border-radius: 12px;
+        margin-right: 4px;
+        background: $color-green-2;
+        color: $color-green-1;
+      }
+
+      .products {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: $color-black-1;
+      }
+    }
+  }
+
+  .filters {
+    display: flex;
+
+    .radioType {
+      margin-right: 16px;
+
+      form {
+        display: flex;
+        align-content: center;
+
+        padding: 9px 16px;
+        //width: 340px;
+        background: $color-grey-1;
+        border: 1px solid $color-grey-3;
+        border-radius: 12px;
+      }
+
+      label {
+        margin-right: 16px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        input {
+          width: 20px;
+          height: 20px;
+          border: 1.5px solid $color-grey-3;
+          margin-right: 4px;
+        }
+
+        span {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 19px;
+        }
+      }
+    }
+
+    .checkboxType {
+      margin-right: 16px;
+      display: flex;
+      align-items: center;
+
+      form {
+        padding: 9px 16px;
+        border-radius: 12px;
+        background: $color-grey-1;
+        border: 1px solid $color-grey-3;
+        margin-right: 16px;
+
+        label {
+          display: flex;
+          align-items: center;
+
+          input {
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid $color-grey-3;
+            margin-right: 8px;
+          }
+
+          span {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 19px;
+            color: $color-black-1;
+          }
+        }
+      }
+
+      .productsPerPage {
+        display: flex;
+        align-items: center;
+        padding: 9px 16px;
+        background: #F9F9F9;
+        border: 1px solid #D1D1D1;
+        border-radius: 12px;
+
+        label {
+          display: flex;
+          align-items: center;
+
+          input {
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid $color-grey-3;
+            margin-right: 8px;
+          }
+
+          .filter {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 19px;
+            margin-right: 16px;
+            color: $color-black-1;
+          }
+        }
+
+        span {
+          display: flex;
+          align-items: center;
+          color: $color-black-1;
+
+          &.number {
+            padding: 0 8px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+            border: 1px solid $color-grey-3;
+            border-radius: 12px;
+            color: $color-black-1;
+          }
+
+          &.space {
+            margin-right: 24px;
+            margin-left: 32px;
+            height: 20px;
+            border-right: 2px solid $color-grey-3;
+          }
+        }
+
+        select {
+          text-align: center;
+          border: none;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          margin-right: 48px;
+          color: $color-black-1;
+          background-color: $color-grey-1;
+          //appearance: none;
+          outline: none;
+          width: auto;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .applied-filters {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+
+    .applied {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 18px;
+      margin-right: 12px;
+      color: $color-grey-5;
+
+    }
+
+    .selected-filter {
+      display: flex;
+      padding: 4px 12px;
+      background: #F4F8EC;
+      border-radius: 12px;
+
+      margin-right: 12px;
+
+      span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 4px;
+        color: $color-green-1;
+      }
+
+      i {
+        font-weight: 600;
+        font-size: 12px;
+        color: black;
+
+      }
+    }
+  }
+}

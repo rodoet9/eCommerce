@@ -9,7 +9,7 @@
       font-weight: 600;
       font-size: 18px;
       line-height: 27px;
-      color: #151515; }
+      color: #000000; }
     .section-headline .title-right {
       display: flex;
       align-items: center; }
@@ -22,7 +22,7 @@
         font-weight: 700;
         font-size: 15px;
         line-height: 22px;
-        color: #151515; }
+        color: #000000; }
       .section-headline .title-right .icon-arrow-right {
         color: #6A983C; }
   .section-headline .product-cards {
@@ -41,18 +41,16 @@
           width: 280px;
           height: 200px;
           border-radius: 12px; }
-        .section-headline .product-cards .card .photo:after {
-          padding: 0 8px;
-          position: absolute;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 54px;
-          height: 18px;
-          content: "-36%";
-          border-radius: 12px;
+        .section-headline .product-cards .card .photo .discount {
+          left: 20px;
           top: 12px;
-          left: 12px;
+          position: absolute;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          border-radius: 12px;
+          padding: 0 8px;
           color: #6A983C;
           background: #F4F8EC; }
       .section-headline .product-cards .card .product-name {
@@ -60,7 +58,7 @@
         font-size: 15px;
         line-height: 22px;
         margin-bottom: 4px;
-        color: #151515; }
+        color: #000000; }
       .section-headline .product-cards .card .description {
         font-weight: 400;
         font-size: 12px;
@@ -75,12 +73,12 @@
           font-weight: 600;
           font-size: 18px;
           line-height: 27px;
-          color: #151515; }
+          color: #000000; }
           .section-headline .product-cards .card .price .value-actual {
             font-weight: 600;
             font-size: 18px;
             line-height: 27px;
-            color: #151515; }
+            color: #000000; }
           .section-headline .product-cards .card .price .value-old {
             font-weight: 600;
             font-size: 12px;

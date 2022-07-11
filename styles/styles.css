@@ -48,7 +48,7 @@
         font-size: 16px;
         line-height: 22px;
         margin-right: 48px;
-        color: #151515;
+        color: #000000;
         outline: none;
         width: auto; }
         .header-content .searchbar .categories select:hover {
@@ -109,7 +109,7 @@
         font-weight: 500;
         font-size: 15px;
         line-height: 22px;
-        color: #151515; }
+        color: #000000; }
         .menu ul li a:hover {
           text-decoration: underline; }
       .menu ul li .icon-arrow-down {
@@ -133,7 +133,7 @@
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 16px;
-    color: #151515; }
+    color: #000000; }
   .category-menu .category ul {
     margin: 0;
     padding: 0;
@@ -186,7 +186,7 @@
         font-weight: 600;
         font-size: 22px;
         line-height: 32px;
-        color: #151515;
+        color: #000000;
         margin-bottom: 94px; }
       .category-menu .recipes-left .button-recipes, .category-menu .recipes-right .button-recipes {
         font-weight: 700;
@@ -217,7 +217,7 @@
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 16px;
-    color: #151515; }
+    color: #000000; }
   .best-selling-products .selling-products ul {
     margin: 0;
     padding: 0;
@@ -264,18 +264,16 @@
           width: 280px;
           height: 200px;
           border-radius: 12px; }
-        .best-selling-products .product-cards .card .photo:after {
-          padding: 0 8px;
-          position: absolute;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 54px;
-          height: 18px;
-          content: "-36%";
-          border-radius: 12px;
+        .best-selling-products .product-cards .card .photo .discount {
+          left: 20px;
           top: 12px;
-          left: 12px;
+          position: absolute;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          border-radius: 12px;
+          padding: 0 8px;
           color: #6A983C;
           background: #F4F8EC; }
       .best-selling-products .product-cards .card .product-name {
@@ -283,7 +281,7 @@
         font-size: 15px;
         line-height: 22px;
         margin-bottom: 4px;
-        color: #151515; }
+        color: #000000; }
       .best-selling-products .product-cards .card .description {
         font-weight: 400;
         font-size: 12px;
@@ -298,12 +296,12 @@
           font-weight: 600;
           font-size: 18px;
           line-height: 27px;
-          color: #151515; }
+          color: #000000; }
           .best-selling-products .product-cards .card .price .value-actual {
             font-weight: 600;
             font-size: 18px;
             line-height: 27px;
-            color: #151515; }
+            color: #000000; }
           .best-selling-products .product-cards .card .price .value-old {
             font-weight: 600;
             font-size: 12px;
@@ -339,7 +337,7 @@
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 16px;
-    color: #151515; }
+    color: #000000; }
   .best-from-farmers .from-farmers ul {
     margin: 0;
     padding: 0;
@@ -386,18 +384,16 @@
           width: 280px;
           height: 200px;
           border-radius: 12px; }
-        .best-from-farmers .product-cards .card .photo:after {
-          padding: 0 8px;
-          position: absolute;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 54px;
-          height: 18px;
-          content: "-36%";
-          border-radius: 12px;
+        .best-from-farmers .product-cards .card .photo .discount {
+          left: 20px;
           top: 12px;
-          left: 12px;
+          position: absolute;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          border-radius: 12px;
+          padding: 0 8px;
           color: #6A983C;
           background: #F4F8EC; }
       .best-from-farmers .product-cards .card .product-name {
@@ -405,7 +401,7 @@
         font-size: 15px;
         line-height: 22px;
         margin-bottom: 4px;
-        color: #151515; }
+        color: #000000; }
       .best-from-farmers .product-cards .card .description {
         font-weight: 400;
         font-size: 12px;
@@ -420,12 +416,12 @@
           font-weight: 600;
           font-size: 18px;
           line-height: 27px;
-          color: #151515; }
+          color: #000000; }
           .best-from-farmers .product-cards .card .price .value-actual {
             font-weight: 600;
             font-size: 18px;
             line-height: 27px;
-            color: #151515; }
+            color: #000000; }
           .best-from-farmers .product-cards .card .price .value-old {
             font-weight: 600;
             font-size: 12px;
@@ -458,7 +454,7 @@
       font-weight: 600;
       font-size: 18px;
       line-height: 27px;
-      color: #151515; }
+      color: #000000; }
     .section-headline .title-right {
       display: flex;
       align-items: center; }
@@ -471,7 +467,7 @@
         font-weight: 700;
         font-size: 15px;
         line-height: 22px;
-        color: #151515; }
+        color: #000000; }
       .section-headline .title-right .icon-arrow-right {
         color: #6A983C; }
   .section-headline .product-cards {
@@ -490,18 +486,16 @@
           width: 280px;
           height: 200px;
           border-radius: 12px; }
-        .section-headline .product-cards .card .photo:after {
-          padding: 0 8px;
-          position: absolute;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 54px;
-          height: 18px;
-          content: "-36%";
-          border-radius: 12px;
+        .section-headline .product-cards .card .photo .discount {
+          left: 20px;
           top: 12px;
-          left: 12px;
+          position: absolute;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          border-radius: 12px;
+          padding: 0 8px;
           color: #6A983C;
           background: #F4F8EC; }
       .section-headline .product-cards .card .product-name {
@@ -509,7 +503,7 @@
         font-size: 15px;
         line-height: 22px;
         margin-bottom: 4px;
-        color: #151515; }
+        color: #000000; }
       .section-headline .product-cards .card .description {
         font-weight: 400;
         font-size: 12px;
@@ -524,12 +518,12 @@
           font-weight: 600;
           font-size: 18px;
           line-height: 27px;
-          color: #151515; }
+          color: #000000; }
           .section-headline .product-cards .card .price .value-actual {
             font-weight: 600;
             font-size: 18px;
             line-height: 27px;
-            color: #151515; }
+            color: #000000; }
           .section-headline .product-cards .card .price .value-old {
             font-weight: 600;
             font-size: 12px;
@@ -562,7 +556,7 @@
       font-weight: 600;
       font-size: 18px;
       line-height: 27px;
-      color: #151515; }
+      color: #000000; }
     .blog-posts .title-right {
       display: flex;
       align-items: center; }
@@ -575,7 +569,7 @@
         font-weight: 700;
         font-size: 15px;
         line-height: 22px;
-        color: #151515; }
+        color: #000000; }
       .blog-posts .title-right .icon-arrow-right {
         color: #6A983C; }
   .blog-posts .blogs {
@@ -664,7 +658,7 @@
         line-height: 27px;
         margin-bottom: 16px;
         margin-left: 8px;
-        color: #151515; }
+        color: #000000; }
       .blog-posts .blogs-item .info {
         display: flex; }
         .blog-posts .blogs-item .info .author, .blog-posts .blogs-item .info .date {
@@ -673,7 +667,7 @@
           font-size: 12px;
           line-height: 16px;
           margin-right: 16px;
-          color: #151515; }
+          color: #000000; }
     .blog-posts .blogs .posts-list-item {
       display: flex;
       margin-bottom: 32px; }
@@ -691,7 +685,7 @@
           line-height: 22px;
           margin-right: 48px;
           width: 300px;
-          color: #151515; }
+          color: #000000; }
         .blog-posts .blogs .posts-list-item .text .info {
           padding: 4px;
           display: flex;
@@ -701,7 +695,7 @@
             font-weight: 400;
             font-size: 12px;
             line-height: 16px;
-            color: #151515; }
+            color: #000000; }
       .blog-posts .blogs .posts-list-item .photo img {
         width: 96px;
         height: 96px;
@@ -718,7 +712,7 @@
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 16px;
-    color: #151515; }
+    color: #000000; }
   .links ul {
     margin: 0;
     padding: 0;
@@ -741,7 +735,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
-    color: #151515; }
+    color: #000000; }
   .tags ul {
     margin: 0;
     padding: 0;
@@ -763,19 +757,269 @@
         font-weight: 600;
         font-size: 12px;
         line-height: 18px;
-        color: #151515; }
+        color: #000000; }
 
 .copyright {
   padding: 44px 44px;
   background: #ffffff; }
 
 body {
-  margin: 0;
+  align-items: center;
+  background: #E3E3E3;
+  justify-content: center; }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(calc(-250px * 7)); } }
+.slider {
+  background: white;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative; }
+  .slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2; }
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg); }
+  .slider::before {
+    left: 0;
+    top: 0; }
+  .slider .slide-track {
+    animation: scroll 25s linear infinite;
+    display: flex;
+    width: calc(250px * 14); }
+  .slider .slide {
+    height: 100px;
+    width: 250px; }
+
+.top {
+  padding: 0 44px;
+  background: #ffffff; }
+  .top-top .breadcrumbs {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding-top: 16px; }
+    .top-top .breadcrumbs a {
+      text-decoration: none;
+      color: inherit;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #A9A9A9; }
+      .top-top .breadcrumbs a:hover {
+        color: #000000; }
+      .top-top .breadcrumbs a:before {
+        content: '/';
+        margin-right: 8px;
+        color: #A9A9A9; }
+      .top-top .breadcrumbs a:first-child {
+        margin-left: 0; }
+        .top-top .breadcrumbs a:first-child:before {
+          content: '';
+          margin-right: 0; }
+  .top-middle {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center; }
+    .top-middle .title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 48px;
+      flex: 1;
+      color: #000000; }
+    .top-middle .viewType {
+      display: flex;
+      align-items: center;
+      margin-right: 24px; }
+      .top-middle .viewType a {
+        text-decoration: none;
+        color: inherit; }
+      .top-middle .viewType .grid {
+        display: flex;
+        margin-right: 24px; }
+        .top-middle .viewType .grid .icon-grid {
+          color: #6A983C; }
+        .top-middle .viewType .grid .type {
+          display: flex;
+          align-items: center;
+          margin-left: 4px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #A9A9A9; }
+          .top-middle .viewType .grid .type:hover {
+            color: #000000; }
+      .top-middle .viewType .list {
+        display: flex; }
+        .top-middle .viewType .list .icon-list {
+          color: #6A983C; }
+        .top-middle .viewType .list .type {
+          display: flex;
+          align-items: center;
+          margin-left: 4px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          color: #A9A9A9; }
+          .top-middle .viewType .list .type:hover {
+            color: #000000; }
+    .top-middle .no-products {
+      display: flex;
+      align-items: center; }
+      .top-middle .no-products .number {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0px 8px;
+        border-radius: 12px;
+        margin-right: 4px;
+        background: #F4F8EC;
+        color: #6A983C; }
+      .top-middle .no-products .products {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000; }
+  .top .filters {
+    display: flex; }
+    .top .filters .radioType {
+      margin-right: 16px; }
+      .top .filters .radioType form {
+        display: flex;
+        align-content: center;
+        padding: 9px 16px;
+        background: #F9F9F9;
+        border: 1px solid #D1D1D1;
+        border-radius: 12px; }
+      .top .filters .radioType label {
+        margin-right: 16px; }
+        .top .filters .radioType label:last-child {
+          margin-right: 0; }
+        .top .filters .radioType label input {
+          width: 20px;
+          height: 20px;
+          border: 1.5px solid #D1D1D1;
+          margin-right: 4px; }
+        .top .filters .radioType label span {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 19px; }
+    .top .filters .checkboxType {
+      margin-right: 16px;
+      display: flex;
+      align-items: center; }
+      .top .filters .checkboxType form {
+        padding: 9px 16px;
+        border-radius: 12px;
+        background: #F9F9F9;
+        border: 1px solid #D1D1D1;
+        margin-right: 16px; }
+        .top .filters .checkboxType form label {
+          display: flex;
+          align-items: center; }
+          .top .filters .checkboxType form label input {
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid #D1D1D1;
+            margin-right: 8px; }
+          .top .filters .checkboxType form label span {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 19px;
+            color: #000000; }
+      .top .filters .checkboxType .productsPerPage {
+        display: flex;
+        align-items: center;
+        padding: 9px 16px;
+        background: #F9F9F9;
+        border: 1px solid #D1D1D1;
+        border-radius: 12px; }
+        .top .filters .checkboxType .productsPerPage label {
+          display: flex;
+          align-items: center; }
+          .top .filters .checkboxType .productsPerPage label input {
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid #D1D1D1;
+            margin-right: 8px; }
+          .top .filters .checkboxType .productsPerPage label .filter {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 19px;
+            margin-right: 16px;
+            color: #000000; }
+        .top .filters .checkboxType .productsPerPage span {
+          display: flex;
+          align-items: center;
+          color: #000000; }
+          .top .filters .checkboxType .productsPerPage span.number {
+            padding: 0 8px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+            border: 1px solid #D1D1D1;
+            border-radius: 12px;
+            color: #000000; }
+          .top .filters .checkboxType .productsPerPage span.space {
+            margin-right: 24px;
+            margin-left: 32px;
+            height: 20px;
+            border-right: 2px solid #D1D1D1; }
+        .top .filters .checkboxType .productsPerPage select {
+          text-align: center;
+          border: none;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          margin-right: 48px;
+          color: #000000;
+          background-color: #F9F9F9;
+          outline: none;
+          width: auto; }
+          .top .filters .checkboxType .productsPerPage select:hover {
+            cursor: pointer; }
+  .top .applied-filters {
+    display: flex;
+    align-items: center;
+    margin-top: 16px; }
+    .top .applied-filters .applied {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 18px;
+      margin-right: 12px;
+      color: #A9A9A9; }
+    .top .applied-filters .selected-filter {
+      display: flex;
+      padding: 4px 12px;
+      background: #F4F8EC;
+      border-radius: 12px;
+      margin-right: 12px; }
+      .top .applied-filters .selected-filter span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 18px;
+        margin-right: 4px;
+        color: #6A983C; }
+      .top .applied-filters .selected-filter i {
+        font-weight: 600;
+        font-size: 12px;
+        color: black; }
+
+body {
   padding: 0;
   background: #F9F9F9;
-  font-family: 'Poppins', sans-serif; }
-
-.container {
+  font-family: 'Poppins', sans-serif;
   margin: 0 auto;
   width: 80%; }
 

@@ -12,7 +12,7 @@
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 16px;
-    color: #151515; }
+    color: #000000; }
   .category-menu .category ul {
     margin: 0;
     padding: 0;
@@ -65,7 +65,7 @@
         font-weight: 600;
         font-size: 22px;
         line-height: 32px;
-        color: #151515;
+        color: #000000;
         margin-bottom: 94px; }
       .category-menu .recipes-left .button-recipes, .category-menu .recipes-right .button-recipes {
         font-weight: 700;

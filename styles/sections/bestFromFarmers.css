@@ -12,7 +12,7 @@
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 16px;
-    color: #151515; }
+    color: #000000; }
   .best-from-farmers .from-farmers ul {
     margin: 0;
     padding: 0;
@@ -59,18 +59,16 @@
           width: 280px;
           height: 200px;
           border-radius: 12px; }
-        .best-from-farmers .product-cards .card .photo:after {
-          padding: 0 8px;
-          position: absolute;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 54px;
-          height: 18px;
-          content: "-36%";
-          border-radius: 12px;
+        .best-from-farmers .product-cards .card .photo .discount {
+          left: 20px;
           top: 12px;
-          left: 12px;
+          position: absolute;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          border-radius: 12px;
+          padding: 0 8px;
           color: #6A983C;
           background: #F4F8EC; }
       .best-from-farmers .product-cards .card .product-name {
@@ -78,7 +76,7 @@
         font-size: 15px;
         line-height: 22px;
         margin-bottom: 4px;
-        color: #151515; }
+        color: #000000; }
       .best-from-farmers .product-cards .card .description {
         font-weight: 400;
         font-size: 12px;
@@ -93,12 +91,12 @@
           font-weight: 600;
           font-size: 18px;
           line-height: 27px;
-          color: #151515; }
+          color: #000000; }
           .best-from-farmers .product-cards .card .price .value-actual {
             font-weight: 600;
             font-size: 18px;
             line-height: 27px;
-            color: #151515; }
+            color: #000000; }
           .best-from-farmers .product-cards .card .price .value-old {
             font-weight: 600;
             font-size: 12px;
