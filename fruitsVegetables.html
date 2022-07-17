@@ -171,13 +171,475 @@
         <div class="applied">Applied filters:</div>
         <div class="selected-filter">
             <span>Selected filter</span>
-            <i>X</i>
+            <i class="icon-cancel-circled"></i>
         </div>
         <div class="selected-filter">
             <span>Selected filter</span>
-            <i>X</i>
+            <i class="icon-cancel-circled"></i>
         </div>
     </div>
+</div>
+<div class="content">
+    <div class="sidebar">
+        <div class="categories">
+            <div class="title-categories">Categories</div>
+            <ul>
+                <li><span class="categoryName">Category name</span>
+                    <span class="number">320</span></li>
+                <li><span class="categoryName">Category name</span>
+                    <span class="number">111</span></li>
+                <li><span class="categoryName">Category name</span>
+                    <span class="number">73</span></li>
+                <li><span class="categoryName">Category name</span>
+                    <span class="number">9</span></li>
+            </ul>
+        </div>
+        <div class="brands">
+            <div class="title-brands">Brands</div>
+            <form>
+                <ul>
+                    <li><label><input type="checkbox">Lidl</label></li>
+                    <li><label><input type="checkbox">Kaufland</label></li>
+                    <li><label><input type="checkbox">MegaImage</label></li>
+                    <li><label><input type="checkbox">Penny</label></li>
+                    <li><label><input type="checkbox">Carrefour</label></li>
+                </ul>
+            </form>
+        </div>
+        <div class="rating">
+            <div class="title-rating">Rating</div>
+            <form>
+                <ul>
+                    <li><label><input type="checkbox">
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                    </label></li>
+                    <li><label><input type="checkbox">
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-light"></i>
+                    </label></li>
+                    <li><label><input type="checkbox">
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-light"></i>
+                        <i class="icon-star-light"></i>
+                    </label></li>
+                    <li><label><input type="checkbox">
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-light"></i>
+                        <i class="icon-star-light"></i>
+                        <i class="icon-star-light"></i>
+                    </label></li>
+                    <li><label><input type="checkbox">
+                        <i class="icon-star-full"></i>
+                        <i class="icon-star-light"></i>
+                        <i class="icon-star-light"></i>
+                        <i class="icon-star-light"></i>
+                        <i class="icon-star-light"></i>
+                    </label></li>
+                </ul>
+            </form>
+        </div>
+        <div class="price">
+            <div class="title-price">Price</div>
+            <form>
+                <label>
+                    <input type="range" id="rangeInput" name="rangeInput" min="1" max="100" value="1"
+                           oninput="amount.value=rangeInput.value">
+
+                    <span class="price-value">
+                  <output id="amount" name="amount" for="rangeInput">1</output>
+                        <!--            <output>lei</output>-->
+            </span>
+                </label>
+                <div class="buttons">
+                    <input type="submit" value="Apply"/>
+                    <input type="reset" value="Reset"/>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="listView">
+        <div class="product-cards">
+            <div class="card">
+                <div class="photo"><img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+                                        alt="Product photo"></div>
+                <div class="card-content">
+                    <div class="content-left">
+                        <div class="title">Product title</div>
+                        <div class="description">Product description</div>
+                        <div class="rating">
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-light"></i>
+                        </div>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <span>Freshness</span>
+                                    <span>New (Extra fresh)</span>
+                                </li>
+                                <li>
+                                    <span>Farm</span>
+                                    <span>Grocery Farm Fields</span>
+                                </li>
+                                <li>
+                                    <span>Delivery</span>
+                                    <span>Europe</span>
+                                </li>
+                                <li>
+                                    <span>Stock</span>
+                                    <span>320 pcs</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="price">
+                            <div class="actual-price">36.99 USD</div>
+                            <div class="old-price">48.99 USD</div>
+                        </div>
+                        <div class="shipping">
+                            <div class="shippingType">Free shipping</div>
+                            <div class="shippingTime">Delivery in 1 day</div>
+                        </div>
+                        <div class="buttons">
+                            <div class="product-details">
+                                Product details
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                            <div class="wishlist">
+                                <i class="icon-heart"></i>
+                                Add to wishlist
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="photo"><img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+                                        alt="Product photo"></div>
+                <div class="card-content">
+                    <div class="content-left">
+                        <div class="title">Product title</div>
+                        <div class="description">Product description</div>
+                        <div class="rating">
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-light"></i>
+                        </div>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <span>Freshness</span>
+                                    <span>New (Extra fresh)</span>
+                                </li>
+                                <li>
+                                    <span>Farm</span>
+                                    <span>Grocery Farm Fields</span>
+                                </li>
+                                <li>
+                                    <span>Delivery</span>
+                                    <span>Europe</span>
+                                </li>
+                                <li>
+                                    <span>Stock</span>
+                                    <span>320 pcs</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="price">
+                            <div class="actual-price">36.99 USD</div>
+                            <div class="old-price">48.99 USD</div>
+                        </div>
+                        <div class="shipping">
+                            <div class="shippingType">Free shipping</div>
+                            <div class="shippingTime">Delivery in 1 day</div>
+                        </div>
+                        <div class="buttons">
+                            <div class="product-details">
+                                Product details
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                            <div class="wishlist">
+                                <i class="icon-heart"></i>
+                                Add to wishlist
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="photo"><img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+                                        alt="Product photo"></div>
+                <div class="card-content">
+                    <div class="content-left">
+                        <div class="title">Product title</div>
+                        <div class="description">Product description</div>
+                        <div class="rating">
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-light"></i>
+                        </div>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <span>Freshness</span>
+                                    <span>New (Extra fresh)</span>
+                                </li>
+                                <li>
+                                    <span>Farm</span>
+                                    <span>Grocery Farm Fields</span>
+                                </li>
+                                <li>
+                                    <span>Delivery</span>
+                                    <span>Europe</span>
+                                </li>
+                                <li>
+                                    <span>Stock</span>
+                                    <span>320 pcs</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="price">
+                            <div class="actual-price">36.99 USD</div>
+                            <div class="old-price">48.99 USD</div>
+                        </div>
+                        <div class="shipping">
+                            <div class="shippingType">Free shipping</div>
+                            <div class="shippingTime">Delivery in 1 day</div>
+                        </div>
+                        <div class="buttons">
+                            <div class="product-details">
+                                Product details
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                            <div class="wishlist">
+                                <i class="icon-heart"></i>
+                                Add to wishlist
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="photo"><img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+                                        alt="Product photo"></div>
+                <div class="card-content">
+                    <div class="content-left">
+                        <div class="title">Product title</div>
+                        <div class="description">Product description</div>
+                        <div class="rating">
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-light"></i>
+                        </div>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <span>Freshness</span>
+                                    <span>New (Extra fresh)</span>
+                                </li>
+                                <li>
+                                    <span>Farm</span>
+                                    <span>Grocery Farm Fields</span>
+                                </li>
+                                <li>
+                                    <span>Delivery</span>
+                                    <span>Europe</span>
+                                </li>
+                                <li>
+                                    <span>Stock</span>
+                                    <span>320 pcs</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="price">
+                            <div class="actual-price">36.99 USD</div>
+                            <div class="old-price">48.99 USD</div>
+                        </div>
+                        <div class="shipping">
+                            <div class="shippingType">Free shipping</div>
+                            <div class="shippingTime">Delivery in 1 day</div>
+                        </div>
+                        <div class="buttons">
+                            <div class="product-details">
+                                Product details
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                            <div class="wishlist">
+                                <i class="icon-heart"></i>
+                                Add to wishlist
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="photo"><img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
+                                        alt="Product photo"></div>
+                <div class="card-content">
+                    <div class="content-left">
+                        <div class="title">Product title</div>
+                        <div class="description">Product description</div>
+                        <div class="rating">
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-full"></i>
+                            <i class="icon-star-light"></i>
+                        </div>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <span>Freshness</span>
+                                    <span>New (Extra fresh)</span>
+                                </li>
+                                <li>
+                                    <span>Farm</span>
+                                    <span>Grocery Farm Fields</span>
+                                </li>
+                                <li>
+                                    <span>Delivery</span>
+                                    <span>Europe</span>
+                                </li>
+                                <li>
+                                    <span>Stock</span>
+                                    <span>320 pcs</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="price">
+                            <div class="actual-price">36.99 USD</div>
+                            <div class="old-price">48.99 USD</div>
+                        </div>
+                        <div class="shipping">
+                            <div class="shippingType">Free shipping</div>
+                            <div class="shippingTime">Delivery in 1 day</div>
+                        </div>
+                        <div class="buttons">
+                            <div class="product-details">
+                                Product details
+                                <i class="icon-arrow-right"></i>
+                            </div>
+                            <div class="wishlist">
+                                <i class="icon-heart"></i>
+                                Add to wishlist
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="moreProducts">
+    <div class="pages">
+        Page:
+        <span class="currentPage">1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+    </div>
+    <div class="showMore">Show more products
+        <i class="icon-arrow-down"></i>
+    </div>
+    <div class="totalProducts">
+        <span>336</span>
+        Products
+    </div>
+</div>
+<div class="links">
+    <div class="touch">
+        <div class="title">Get in touch</div>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+    <div class="socialmedia">
+        <div class="title">Connections</div>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </div>
+    <div class="earnings">
+        <div class="title">Earnings</div>
+        <ul>
+            <li><a href="#">Become an Affiliate</a></li>
+            <li><a href="#">Advertise your product</a></li>
+            <li><a href="#">Sell on Market</a></li>
+        </ul>
+    </div>
+    <div class="account">
+        <div class="title">Account</div>
+        <ul>
+            <li><a href="#">Your account</a></li>
+            <li><a href="#">Returns Centre</a></li>
+            <li><a href="#">100% purchase protection</a></li>
+            <li><a href="#">Chat with us</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+</div>
+<div class="tags">
+    <div class="title">Product tags</div>
+    <ul>
+        <li><a href="#">Beans</a></li>
+        <li><a href="#">Carrots</a></li>
+        <li><a href="#">Apples</a></li>
+        <li><a href="#">Garlic</a></li>
+        <li><a href="#">Mushrooms</a></li>
+        <li><a href="#">Tomatoes</a></li>
+        <li><a href="#">Chilli peppers</a></li>
+        <li><a href="#">Broccoli</a></li>
+        <li><a href="#">Watermelons</a></li>
+        <li><a href="#">Oranges</a></li>
+        <li><a href="#">Bananas</a></li>
+        <li><a href="#">Grapes</a></li>
+        <li><a href="#">Cherries</a></li>
+        <li><a href="#">Meat</a></li>
+        <li><a href="#">SEO tag</a></li>
+        <li><a href="#">Fish</a></li>
+        <li><a href="#">SEO tag</a></li>
+        <li><a href="#">Fresh food</a></li>
+        <li><a href="#">Lemons</a></li>
+    </ul>
+</div>
+<div class="copyright">
+    Copyright © 2022 yoursite.com
+</div>
 </div>
 </body>
 </html>

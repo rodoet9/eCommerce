@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAGA,UAAW;EACT,OAAO,EAAE,SAAS;EAClB,UAAU,ECSI,OAAO",
+"mappings": "AAGA,UAAW;EACT,OAAO,EAAE,SAAS;EAClB,UAAU,ECUI,OAAO",
 "sources": ["copyright.scss","../partials/variables.scss"],
 "names": [],
 "file": "copyright.css"
