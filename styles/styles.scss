@@ -16,6 +16,8 @@
 @import "sections/vegetablesFruits/topSide.scss";
 @import "sections/vegetablesFruits/sidebar.scss";
 @import "sections/vegetablesFruits/showMoreProducts.scss";
+@import "sections/vegetablesFruits/fruitsVegGridView.scss";
+
 
 body {
   //margin: 0;
@@ -23,7 +25,7 @@ body {
   background: #F9F9F9;
   font-family: 'Poppins', sans-serif;
   margin: 0 auto;
-  width: 80%;
+  width: 75%;
 }
 
 //.container {

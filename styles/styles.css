@@ -1315,11 +1315,78 @@ body {
       background: #F4F8EC;
       border-radius: 12px; }
 
+.productCards {
+  display: flex;
+  flex-wrap: wrap; }
+  .productCards .card {
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+    margin-right: 28px;
+    margin-bottom: 32px; }
+    .productCards .card:last-child {
+      margin-right: 0; }
+    .productCards .card .photo {
+      margin-bottom: 16px; }
+      .productCards .card .photo img {
+        width: 268px;
+        height: 268px;
+        border-radius: 12px; }
+    .productCards .card-content .title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      margin-bottom: 4px;
+      color: #151515; }
+    .productCards .card-content .description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      margin-bottom: 12px;
+      color: #575757; }
+    .productCards .card-content .rating {
+      font-size: 18px;
+      margin-bottom: 16px; }
+      .productCards .card-content .rating .icon-star-full {
+        color: goldenrod; }
+      .productCards .card-content .rating .icon-star-light {
+        color: #A9A9A9; }
+    .productCards .card-content .purchase {
+      display: flex;
+      justify-content: space-between; }
+      .productCards .card-content .purchase .price .actual {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000000; }
+      .productCards .card-content .purchase .price .discounted {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        text-decoration-line: line-through;
+        color: #A9A9A9; }
+      .productCards .card-content .purchase .btn-buy {
+        text-decoration: none;
+        color: inherit;
+        padding: 8px 12px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        background: #6A983C;
+        border: 2px solid #46760A;
+        border-radius: 12px;
+        color: #FFFFFF; }
+        .productCards .card-content .purchase .btn-buy:hover {
+          background: #46760A; }
+
 body {
   padding: 0;
   background: #F9F9F9;
   font-family: 'Poppins', sans-serif;
   margin: 0 auto;
-  width: 80%; }
+  width: 75%; }
 
 /*# sourceMappingURL=styles.css.map */
